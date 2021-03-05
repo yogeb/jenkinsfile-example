@@ -5,11 +5,8 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-               sh "echo 'Run Static Code Analysis'"               
-             steps {
-               sh "echo 'Run Static Code Analysis'"
+               sh "echo 'Run Static Code Analysis'"              
                  }
-               }
             }
         }
      }
